@@ -24,8 +24,7 @@ class AgentState(TypedDict):
 import os
 from google.colab import userdata
 
-os.environ['OPENAI_API_KEY'] = "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"
-
+os.environ['OPENAI_API_KEY'] = ""
 llm = ChatOpenAI(
     model="gpt-4o-mini",
     temperature=0
